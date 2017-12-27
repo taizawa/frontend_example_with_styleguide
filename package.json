@@ -1,0 +1,26 @@
+{
+  "name": "frontend_example",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "scripts": {
+    "watch": "node node_modules/gulp/bin/gulp.js",
+    "build:css": "node node_modules/gulp/bin/gulp.js build:css",
+    "build:html": "node node_modules/gulp/bin/gulp.js build:html"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "cssnano": "^3.10.0",
+    "ejs": "^2.5.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-custom-properties": "^6.2.0",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-style-guide": "^0.14.0",
+    "browser-sync": "^2.18.13",
+    "gulp-ejs": "^3.1.0"
+  }
+}

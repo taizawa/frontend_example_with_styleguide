@@ -1,0 +1,59 @@
+@import "color";
+
+/*
+@styleguide
+
+@title Container
+
+<article>
+    `<div class="block">block</div>`
+    <div class="block">block</div>
+</article>
+
+<hr>
+
+<article>
+
+    `<div class="block  block--size_large">large-block</div>`
+    `<div class="block__item">item-normal</div>`
+    `<div class="block__item block__item--state_warning">item-warning</div>`
+
+
+    <div class="block  block--size_large">
+        <div>large-block</div>
+        <div>
+            <span class="block__item">item-normal</span><span class="block__item block__item--state_warning">
+                item-warning
+            </span> 
+        </div>   
+    </div>
+</article>
+
+
+*/
+
+/* 
+   Block-Modifier
+   Block-Element-Modifier
+*/
+
+.block {
+    background-color: var(--purple);
+    color: white;
+    width: 50%;
+    padding: 2rem;
+    &--size_large {
+        width: 100%;
+    }
+    &__item {
+        border: 1px dashed var(--gray);
+        color: white;
+        margin: 1rem 1rem 1rem 0;
+        padding: 1rem;
+        display: inline-block;
+        &--state_warning {
+            color: var(--red);
+            border-color: var(--red);
+        }
+    }
+}

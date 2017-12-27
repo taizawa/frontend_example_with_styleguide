@@ -1,0 +1,74 @@
+@import "color";
+
+/*
+@styleguide
+
+@title Button
+
+`<a>`, `<button>`, `<input>`要素に適用
+
+<article>
+
+  `<button class="button button--size_small">button size_small</button>`
+  <button class="button button--size_small">button size_small</button>
+
+</article>
+
+<article>
+
+  `<button class="button button--size_large">button size_large</button>`
+  <button class="button button--size_large">button size_large</button>
+
+</article>
+
+<article>
+
+  `<button class="button button--size_large button--state_active">button state_active</button>`
+  <button class="button button--size_large button--state_active">button state_active</button>
+
+</article>
+
+
+<article>
+
+  `<button class="button button--size_large button--state_inactive">button state_inactive</button>`
+  <button class="button button--size_large button--state_inactive">button state_inactive</button>
+
+</article>
+
+*/
+
+/*
+   Element-Modifier
+*/
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    width: 12.0rem;
+    height: 4.0rem;
+    font-size: 1.4rem;
+    background-color: var(--gray);   
+    margin-bottom: 2rem; 
+    &--size_small {
+        width: 10.0rem;
+        height: 3.0rem;
+        font-size: 1.0rem;
+    }
+    &--size_large {
+        width: 18.0rem;
+        height: 4.0rem;
+        font-size: 1.4rem;
+    }
+    &--state_active {
+        color: #fff;
+        background-color: var(--red);
+    }
+    &--state_inactive {
+        color: #fff;
+        background-color: var(--blue);
+    }            
+}
