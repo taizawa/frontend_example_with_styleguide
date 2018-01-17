@@ -2,13 +2,59 @@
 <html lang="ja">
 <% include template/layout/_head %>
 <body>
-  <% include template/layout/_header %>
+  <% include dev/_index_style %>
   <section>
-    <ul>
-      <li><a href="area/hokkaido/index.html">/area/hokkaido</a></li>
-      <li><a href="detail_co/id1275526605-394730.html">/detail_co/id1275526605-394730</a></li>
-    </ul>
+    <h2>地域</h2>      
+    <table class="progress">
+      <tr>
+        <th>テンプレート種別</th>
+        <th>URL</th/>
+          <th>完了予定日</th>
+          <th>ステータス</th>
+      </tr>
+      <tr>
+        <td>都道府県</td>
+        <td><a href="area/hokkaido/index.html">/area/hokkaido</a></td>
+        <td>2018/1/22</td>
+        <td>コーディング中</td>
+      </tr>
+      <tr>
+          <td>市区町村</td>
+          <td><a href="list_city/sid1100.html">/list_city/sid1100.html</a></td>
+          <td>2018/1/22</td>
+          <td>コーディング中</td>
+        </tr>
+    </table>
+
+    <h2>葬儀社詳細</h2>      
+    <table class="progress">
+      <tr>
+        <th>テンプレート種別</th>
+        <th>URL</th/>
+          <th>完了予定日</th>
+          <th>ステータス</th>
+      </tr>
+      <tr>
+        <td>基本情報</td>
+        <td><a href="detail_co/id1275526605-394730.html">/detail_co/id1275526605-394730</a></td>
+        <td>2018/1/22</td>
+        <td>コーディング中</td>
+      </tr>
+      <tr>
+        <td>アクセス情報</td>
+        <td><a href="detail_co_map/id1275526605-394730.html">/detail_co_map/id1275526605-394730</a></td>
+        <td>2018/1/22</td>
+        <td>未着手</td>
+      </tr>  
+    </table>
+
+    <h2># コンポーネント集</h2>      
+
+    <div>
+      <a href="http://localhost:3333/">http://localhost:3333/</a>
+    </div>
+    
+
   </section>
-  <% include template/layout/_footer %>
 </body>
 </html>
