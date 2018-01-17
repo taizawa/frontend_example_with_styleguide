@@ -3,21 +3,32 @@
 /*
 @styleguide
 
-@title Container
+@title ブロック要素
 
-<article>
-    `<div class="block">block</div>`
+ブロック要素に適用するCSS
+
+<button class="button button--large button--red">Red Button</button>
+
+    <button class="button button--large button--red">Red Button</button>
+
+<button class="button button--large button--blue">Red Button</button>
+
+    <button class="button button--large button--blue">Red Button</button>
+
+
+<div class="block">block</div>
+    
     <div class="block">block</div>
-</article>
 
-<hr>
 
-<article>
-
-    `<div class="block  block--size_large">large-block</div>`
-    `<div class="block__item">item-normal</div>`
-    `<div class="block__item block__item--state_warning">item-warning</div>`
-
+<div class="block  block--size_large">
+    <div>large-block</div>
+    <div>
+        <span class="block__item">item-normal</span><span class="block__item block__item--state_warning">
+            item-warning
+        </span> 
+    </div>   
+</div>
 
     <div class="block  block--size_large">
         <div>large-block</div>
@@ -27,8 +38,6 @@
             </span> 
         </div>   
     </div>
-</article>
-
 
 */
 

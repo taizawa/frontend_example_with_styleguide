@@ -20,7 +20,7 @@ gulp.task('build:css', function () {
             styleGuide({
                 project: 'The new style guide of e-sogi.com.',
                 dest: 'dest/styleguide/index.html',
-                showCode: false,
+                showCode: true,
                 themePath: 'styleguide_theme'
             }),
             nano
@@ -30,7 +30,7 @@ gulp.task('build:css', function () {
 })
 
 gulp.task('build:html', function () {
-    gulp.src('./src/*.ejs')
+    gulp.src(['./src/*.ejs', './src/template/page/**/*.ejs'])
         .pipe(ejs(
           {
             pageTitle: 'いい葬儀',

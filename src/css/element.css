@@ -3,38 +3,25 @@
 /*
 @styleguide
 
-@title Button
+@title ボタン類
 
 `<a>`, `<button>`, `<input>`要素に適用
 
-<article>
+<button class="button button--size_small">button size_small</button>
 
-  `<button class="button button--size_small">button size_small</button>`
-  <button class="button button--size_small">button size_small</button>
+    <button class="button button--size_small">button size_small</button>
 
-</article>
+<button class="button button--size_large">button size_large</button>
 
-<article>
+    <button class="button button--size_large">button size_large</button>
 
-  `<button class="button button--size_large">button size_large</button>`
-  <button class="button button--size_large">button size_large</button>
+<button class="button button--size_large button--state_active">button state_active</button>
 
-</article>
+    <button class="button button--size_large button--state_active">button state_active</button>
 
-<article>
+<button class="button button--size_large button--state_inactive">button state_inactive</button>
 
-  `<button class="button button--size_large button--state_active">button state_active</button>`
-  <button class="button button--size_large button--state_active">button state_active</button>
-
-</article>
-
-
-<article>
-
-  `<button class="button button--size_large button--state_inactive">button state_inactive</button>`
-  <button class="button button--size_large button--state_inactive">button state_inactive</button>
-
-</article>
+    <button class="button button--size_large button--state_inactive">button state_inactive</button>
 
 */
 
